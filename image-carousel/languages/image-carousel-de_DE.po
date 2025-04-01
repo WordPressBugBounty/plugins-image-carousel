@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Image Carousel\n"
-"POT-Creation-Date: 2022-02-14 08:22+0700\n"
-"PO-Revision-Date: 2022-02-14 08:24+0700\n"
+"POT-Creation-Date: 2024-12-19 13:29+0700\n"
+"PO-Revision-Date: 2024-12-19 13:29+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -55,72 +55,72 @@ msgstr "Graustufenbild fehlgeschlagen."
 msgid "Image negate failed."
 msgstr "Bild invertieren fehlgeschlagen."
 
-#: inc/functions/ajax/icp-admin-ajax.php:147
+#: inc/functions/ajax/icp-admin-ajax.php:157
 #, php-format
 msgid "By %s"
 msgstr "von %s"
 
-#: inc/functions/ajax/icp-admin-ajax.php:159
+#: inc/functions/ajax/icp-admin-ajax.php:169
 #, php-format
 msgid "Install %s now"
 msgstr "Install %s now"
 
-#: inc/functions/ajax/icp-admin-ajax.php:159
+#: inc/functions/ajax/icp-admin-ajax.php:169
 msgid "Install Now"
 msgstr "Install"
 
-#: inc/functions/ajax/icp-admin-ajax.php:166
+#: inc/functions/ajax/icp-admin-ajax.php:176
 #, php-format
 msgid "Update %s now"
 msgstr "Aktualisieren %s Jetzt"
 
-#: inc/functions/ajax/icp-admin-ajax.php:166
+#: inc/functions/ajax/icp-admin-ajax.php:176
 msgid "Update Now"
 msgstr "Update"
 
-#: inc/functions/ajax/icp-admin-ajax.php:172
+#: inc/functions/ajax/icp-admin-ajax.php:182
 msgid "This plugin is already installed and is up to date"
 msgstr "Dieses Plugin ist bereits installiert und auf dem neuesten Stand"
 
-#: inc/functions/ajax/icp-admin-ajax.php:172
+#: inc/functions/ajax/icp-admin-ajax.php:182
 msgctxt "plugin"
 msgid "Installed"
 msgstr "installiert"
 
-#: inc/functions/ajax/icp-admin-ajax.php:181
+#: inc/functions/ajax/icp-admin-ajax.php:191
 #, php-format
 msgid "More information about %s"
 msgstr "Mehr Informationen zu %s"
 
-#: inc/functions/ajax/icp-admin-ajax.php:181
+#: inc/functions/ajax/icp-admin-ajax.php:191
 msgid "More Details"
 msgstr "Mehr Details"
 
-#: inc/functions/ajax/icp-admin-ajax.php:249
+#: inc/functions/ajax/icp-admin-ajax.php:263
 msgid "Last Updated:"
 msgstr "Letzte Aktualisierung:"
 
-#: inc/functions/ajax/icp-admin-ajax.php:250
+#: inc/functions/ajax/icp-admin-ajax.php:264
 #, php-format
 msgid "%s ago"
 msgstr "%s ago"
 
-#: inc/functions/ajax/icp-admin-ajax.php:254
+#: inc/functions/ajax/icp-admin-ajax.php:268
 #, php-format
 msgid "%s download"
 msgid_plural "%s downloads"
 msgstr[0] "%s download"
 msgstr[1] "%s downloads"
 
-#: inc/functions/ajax/icp-admin-ajax.php:259
+#: inc/functions/ajax/icp-admin-ajax.php:273
 msgid "Untested with your version of WordPress"
 msgstr "Untested with your version of WordPress"
 
-#: inc/functions/ajax/icp-admin-ajax.php:261
+#: inc/functions/ajax/icp-admin-ajax.php:275
 msgid "<strong>Incompatible</strong> with your version of WordPress"
 msgstr "<strong>Inkompatibel</strong> mit Ihrer WordPress-Version"
 
-#: inc/functions/ajax/icp-admin-ajax.php:263
+#: inc/functions/ajax/icp-admin-ajax.php:277
 msgid "<strong>Compatible</strong> with your version of WordPress"
 msgstr "<strong>Kompatibel</strong> mit Ihrer WordPress-Version"
 
@@ -377,7 +377,7 @@ msgstr "Image Carousel"
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
-msgid "http://www.ghozylab.com/plugins/"
+msgid "https://www.ghozylab.com/plugins/"
 msgstr ""
 
 #. Description of the plugin/theme

@@ -4,7 +4,7 @@
 Plugin Name: Image Carousel
 Plugin URI: https://www.ghozylab.com/plugins/
 Description: Touch enabled Wordpress plugin that lets you create a beautiful responsive image carousel
-Author: GhozyLab, Inc.
+Author: PT. GHOZY LAB LLC
 Text Domain: image-carousel
 Domain Path: /languages
 Version: 1.0.0.39
