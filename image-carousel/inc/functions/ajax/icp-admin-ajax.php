@@ -312,7 +312,7 @@ $.fn.icpReOrder = function(array) {
 
 jQuery(document).ready(function($) {
 	
-	var theListsicp = ['page-builder-wp', 'easy-media-gallery', 'contact-form-lite', 'feed-instagram-lite', 'image-slider-widget', 'gallery-lightbox-slider', 'image-carousel','icon', 'easy-notify-lite'];
+	var theListsicp = ['luvre', 'page-builder-wp', 'easy-media-gallery', 'contact-form-lite', 'feed-instagram-lite', 'image-slider-widget', 'gallery-lightbox-slider', 'image-carousel','icon', 'easy-notify-lite'];
 	
 	$('#the-list').icpReOrder(theListsicp);
 	
