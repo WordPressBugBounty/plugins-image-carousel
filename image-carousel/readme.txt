@@ -3,8 +3,8 @@ Contributors: GhozyLab
 Donate link: https://ghozylab.com/
 Tags: carousel, slider, image carousel, block carousel, gutenberg carousel, image gallery, slider, picture, gallery, slideshow, image, image carousel
 Requires at least: 3.3
-Tested up to: 6.7
-Stable tag: 1.0.0.39
+Tested up to: 6.9
+Stable tag: 1.0.0.41
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,10 +118,16 @@ There are no complicated instructions for using Image Carousel plugin because th
 
 == Upgrade Notice ==
 
-= 1.0.0.39 =
+= 1.0.0.41 =
 IMPORTANT! BUGS FIX, PLEASE UPDATE NOW!
 
 == Changelog ==
+
+= 1.0.0.41 =
+
+* Fixed : Cross Site Scripting (XSS) issue reported by Patchstack
+* Fixed : Carousel Block
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.0.0.39 =
 

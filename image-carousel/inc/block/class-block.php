@@ -39,7 +39,7 @@ if ( ! class_exists( 'Carousel_Block' ) ) {
         {
 
             $is_widget    = false;
-            $dependencies = apply_filters( 'icp_script_dependencies', array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-components', 'wp-editor' ) );
+            $dependencies = apply_filters( 'icp_script_dependencies', array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-components', 'wp-editor', 'lodash' ) );
 
             $currentScreen = get_current_screen();
 
