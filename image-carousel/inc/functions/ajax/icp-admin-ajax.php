@@ -126,6 +126,27 @@ function icp_free_plugins_page() {
     
 <div class="wrap">
 	<style>
+#icp_free_plugins_container #the-list {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 20px;
+}
+
+#icp_free_plugins_container .plugin-card {
+	width: 100% !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+	float: none !important;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#icp_free_plugins_container .plugin-card-top {
+	min-height: 180px !important;
+}
+
 #icp_free_plugins_container .plugin-card .desc > p {
 	margin-right: 0;
 }
@@ -134,6 +155,17 @@ body.rtl #icp_free_plugins_container .plugin-card .desc > p {
 	margin-left: 0;
 }
 
+@media screen and (max-width: 1200px) {
+	#icp_free_plugins_container #the-list {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media screen and (max-width: 782px) {
+	#icp_free_plugins_container #the-list {
+		grid-template-columns: 1fr;
+	}
+}
 </style>
 <div style="margin-top:30px;" class="wp-list-table widefat plugin-install">
 	<div id="the-list">

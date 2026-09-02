@@ -60,7 +60,7 @@ if ( ! class_exists( 'Carousel_Block' ) ) {
             wp_register_style(
                 $this->style_slug, // Handle.
                 plugin_dir_url( __FILE__ ).'carousel-block/dist/blocks.style.build.css', // Block style CSS.
-                array( 'wp-blocks' ) // Dependency to include the CSS after it.
+                array() // Dependency to include the CSS after it.
             );
 
             wp_register_style(

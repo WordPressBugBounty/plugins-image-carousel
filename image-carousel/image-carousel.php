@@ -7,7 +7,7 @@ Description: Touch enabled Wordpress plugin that lets you create a beautiful res
 Author: PT. GHOZY LAB LLC
 Text Domain: image-carousel
 Domain Path: /languages
-Version: 1.0.0.41
+Version: 1.0.0.43
 Author URI: https://www.ghozylab.com/plugins/
  */
 
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 $icp_plugin_url = substr( plugin_dir_url( __FILE__ ), 0, -1 );
 $icp_plugin_dir = substr( plugin_dir_path( __FILE__ ), 0, -1 );
 
-define( 'ICP_VERSION', '1.0.0.41' );
+define( 'ICP_VERSION', '1.0.0.43' );
 define( 'ICP_URL', $icp_plugin_url );
 define( 'ICP_DIR', $icp_plugin_dir );
 define( 'ICP_ITEM_NAME', 'Image Carousel' );

@@ -972,13 +972,49 @@ input.option-tree-ui-input {
   background: none repeat scroll 100% 0% #DA3232 !important;
 }
 
-#section_freeplugins .plugin-card {
-  border: 1px solid #d7d7d7 !important;
+#section_freeplugins #the-list,
+#icp_free_plugins_container #the-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
 }
 
-#section_freeplugins .plugin-card-bottom {
+#section_freeplugins .plugin-card,
+#icp_free_plugins_container .plugin-card {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  float: none !important;
+  border: 1px solid #d7d7d7 !important;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#section_freeplugins .plugin-card-top,
+#icp_free_plugins_container .plugin-card-top {
+  min-height: 180px !important;
+}
+
+#section_freeplugins .plugin-card-bottom,
+#icp_free_plugins_container .plugin-card-bottom {
   border-top: 1px solid #c2c2c2 !important;
   background-color: #efefef !important;
+}
+
+@media screen and (max-width: 1200px) {
+  #section_freeplugins #the-list,
+  #icp_free_plugins_container #the-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 782px) {
+  #section_freeplugins #the-list,
+  #icp_free_plugins_container #the-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .most_popular {
